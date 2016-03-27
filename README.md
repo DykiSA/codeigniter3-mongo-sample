@@ -20,17 +20,28 @@ We assume that you have already installed MongoDB Server and running it, also ru
 
 ### Important
 
-This is not library or plugin, this is a CRUD Aplication to explain how to work with MongoDB with Codeigniter.
-The important thing you must known is that the modification we've made in this project is:
+This is not library or plugin, this is a CRUD Aplication to explain how to work with MongoDB and Codeigniter together.
+The important things you must know is that the modification we've made in this project is:
 
 1. This application use third-party library called [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
-2. We create file listed below:
-  * page.php -> Controller
-  * siswa_model -> Model
-  * home.php -> View
-3. We write the code in three files above.
+2. Option we've modified are:
+  
+  File | Options | Values
+  ---- | ------- | ------
+  config.php | `[index_page]` | (empty)
+  config.php | `['encryption_key']` | `my_mongo_db123`
+  autoload.php | `['libraries']` | `session`
+  autoload.php | `['helper']` | `uri`
+  mongo_db.php | `['mongo_db']['default']['no_auth']` | TRUE
+  mongo_db.php | `['mongo_db']['default']['database']` | `myfirst_Mongo`
 
-Then the rest is nothing changed
+3. We've created file listed below:
+  * `page.php` -> Controller
+  * `siswa_model.php` -> Model
+  * `home.php` -> View
+4. We've write the code in three files above.
+
+Then the rest is nothing changed.
 
 ### Credits
 - [Codeigniter Framework](https://github.com/bcit-ci/CodeIgniter)
