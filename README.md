@@ -23,3 +23,6 @@ We assume that you have already installed MongoDB Server and running it, also ru
 ### License
 ##### The MIT License (MIT)
 See the [license agreement](https://github.com/DykiSA/CI_MongoDB/blob/master/LICENSE)
+
+
+> In this example we used indonesion language and we are sorry for that, but we are focused on fastest performance and how to integrate MongoDB and Codeigniter
