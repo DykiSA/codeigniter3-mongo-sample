@@ -18,6 +18,20 @@ We assume that you have already installed MongoDB Server and running it, also ru
 
 > In this example we used indonesian language and we are sorry for that, but we are focused on fastest performance and how to integrate MongoDB with Codeigniter
 
+### Important
+
+This is not library or plugin, this is a CRUD Aplication to explain how to work with MongoDB with Codeigniter.
+The important thing you must known is that the modification we've made in this project is:
+
+1. This application use third-party library called [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
+2. We create file listed below:
+  * page.php -> Controller
+  * siswa_model -> Model
+  * home.php -> View
+3. We write the code in three files above.
+
+Then the rest is nothing changed
+
 ### Credits
 - [Codeigniter Framework](https://github.com/bcit-ci/CodeIgniter)
 - [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
