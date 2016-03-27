@@ -16,7 +16,7 @@ We assume that you have already installed MongoDB Server and running it, also ru
 3. Run it via accessing it in yur web browser
 4. You can explore it.
 
-> In this example we used indonesion language and we are sorry for that, but we are focused on fastest performance and how to integrate MongoDB with Codeigniter
+> In this example we used indonesian language and we are sorry for that, but we are focused on fastest performance and how to integrate MongoDB with Codeigniter
 
 ### Credits
 - [Codeigniter Framework](https://github.com/bcit-ci/CodeIgniter)
