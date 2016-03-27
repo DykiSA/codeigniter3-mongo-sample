@@ -8,7 +8,7 @@ An Example of Integration between Codeigniter Framwork with MongoDB Database
 - [MongoDB Server](https://www.mongodb.org/downloads#production)
 
 ### Installation
-We assume that you have already installed MongoDB Server and running it, also Running Apache Server or other Server too
+We assume that you have already installed MongoDB Server and running it, also running Apache Server or other Server too
 
 1. Download this source file as zip file and extract it
 2. Create new Codeigniter Project (Version 2.x) under `www` or `htdocs` folder (depends of your server you've used)
