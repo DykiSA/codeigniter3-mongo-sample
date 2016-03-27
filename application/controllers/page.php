@@ -17,11 +17,13 @@ class Page extends CI_Controller {
 
 	public function tambah_data()
 	{
-		$nama = $this->input->post('nama');
-		$jenis_kelamin = $this->input->post('jenis_kelamin');
-		$usia = $this->input->post('usia');
+		$insert = array();
+		// mendapatkan nilai yang mau di ubah dari document
+		foreach ($this->input->post() as $nama_field => $nilai) {
+			$insert[$nama_field] = $nilai;
+		}
 		// tambahkan document/row/record
-		if ($this->siswa->insert($nama, $jenis_kelamin, $usia)) {
+		if ($this->siswa->insert($insert['nama'], $insert['jenis_kelamin'], $insert['usia'])) {
 			// sukses
 			$this->session->set_flashdata('pesan', 'Data berhasil ditambahkan');
 		}else{
