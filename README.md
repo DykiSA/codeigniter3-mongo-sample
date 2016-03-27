@@ -25,7 +25,6 @@ The important things you must know is that the modification we've made in this p
 
 1. This application use third-party library called [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
 2. Option we've modified are:
-  
   File | Options | Values
   ---- | ------- | ------
   config.php | `[index_page]` | (empty)
@@ -34,7 +33,6 @@ The important things you must know is that the modification we've made in this p
   autoload.php | `['helper']` | `uri`
   mongo_db.php | `['mongo_db']['default']['no_auth']` | TRUE
   mongo_db.php | `['mongo_db']['default']['database']` | `myfirst_Mongo`
-
 3. We've created file listed below:
   * `page.php` -> Controller
   * `siswa_model.php` -> Model
