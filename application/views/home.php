@@ -70,7 +70,7 @@
 <div id="wrapper">
 	<div id="header">
 		<h1>Kombinasi Framework Codeigniter & Database MongoDB</h1>
-		<p>Ini adalah aplikasi CRUD menggunakan PHP sebagai bahasa pemrograman dan MongoDB sebagai databasenya,<br>Serta menggunakan Framework Codeigniter versi 2.4</p>
+		<p>Ini adalah aplikasi CRUD menggunakan PHP sebagai bahasa pemrograman dan MongoDB sebagai databasenya,<br>Serta menggunakan Framework Codeigniter versi <?php echo CI_VERSION; ?></p>
 	</div>
 	<div id="content">
 		<div class="block">
