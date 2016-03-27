@@ -3,9 +3,9 @@ An Example of Integration between Codeigniter Framwork with MongoDB Database
 
 ### Requirments
 
-- PHP version 5.4 or above
-- MongoDB PHP Driver (PHP extension)
-- MongoDB Server
+- [PHP](http://php.net) version 5.4 or above
+- [MongoDB PHP Driver](http://php.net/manual/en/set.mongodb.php) (PHP extension)
+- [MongoDB Server](https://www.mongodb.org/downloads#production)
 
 ### Installation
 We assume that you have already installed MongoDB Server and running it, also Running Apache Server or other Server too
