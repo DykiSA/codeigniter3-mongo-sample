@@ -25,6 +25,7 @@ The important things you must know is that the modification we've made in this p
 
 1. This application use third-party library called [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
 2. Option we've modified are:
+  
   File | Options | Values
   ---- | ------- | ------
   config.php | `[index_page]` | (empty)
