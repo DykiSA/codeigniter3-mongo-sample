@@ -22,4 +22,4 @@ We assume that you have already installed MongoDB Server and running it, also ru
 
 ### License
 ##### The MIT License (MIT)
-Copyright (c) 2014 - 2016, British Columbia Institute of Technology
+See the [license agreement](https://github.com/DykiSA/CI_MongoDB/blob/master/LICENSE)
