@@ -6,6 +6,7 @@ An Example of Integration between Codeigniter Framwork with MongoDB Database
 - [PHP](http://php.net) version 5.4 or above
 - [MongoDB PHP Driver](http://php.net/manual/en/set.mongodb.php) (PHP extension)
 - [MongoDB Server](https://www.mongodb.org/downloads#production)
+- [Codeigniter Framework](https://github.com/bcit-ci/CodeIgniter)
 
 ### Installation
 We assume that you have already installed MongoDB Server and running it, also running Apache Server or other Server too
@@ -43,7 +44,6 @@ The important things you must know is that the modification we've made in this p
 Then the rest is nothing changed.
 
 ### Credits
-- [Codeigniter Framework](https://github.com/bcit-ci/CodeIgniter)
 - [CIMongo - MongoDB Library for Codeigniter](https://github.com/intekhabrizvi/Codeigniter-mongo-library)
 
 ### License
